@@ -2,6 +2,44 @@
 
 A modern enterprise-style IT Asset Management System built using React, Vite, Bootstrap, and localStorage.
 
+## Features
+
+- CRUD Asset Management
+- Dashboard Statistics
+- Search and Filter
+- Responsive Bootstrap UI
+- localStorage Persistence
+- GitHub Integration
+- Vercel Deployment
+
+## Technology Stack
+
+- React
+- Vite
+- JavaScript
+- Bootstrap 5
+- localStorage
+- GitHub
+- Vercel
+
+## Live Deployment
+
+https://enterprise-it-asset-manager.vercel.app
+
+## GitHub Repository
+
+https://github.com/t-debnath/enterprise-it-asset-manager
+
+## Installation
+
+```bash
+git clone https://github.com/t-debnath/enterprise-it-asset-manager.git
+cd enterprise-it-asset-manager
+npm install
+npm run dev# Enterprise IT Asset Manager
+
+A modern enterprise-style IT Asset Management System built using React, Vite, Bootstrap, and localStorage.
+
 ## Live Demo
 
 Vercel Deployment:
