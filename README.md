@@ -1,16 +1,81 @@
-# React + Vite
+# Enterprise IT Asset Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern enterprise-style IT Asset Management System built using React, Vite, Bootstrap, and localStorage.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vercel Deployment:
+https://enterprise-it-asset-manager.vercel.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/t-debnath/enterprise-it-asset-manager
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Project Overview
+
+Enterprise IT Asset Manager is a responsive web application designed to simulate a real-world enterprise IT inventory management platform.
+
+The application allows IT administrators to manage organizational devices and infrastructure assets through a clean and interactive dashboard interface.
+
+This project was developed as an academic/final enterprise web application project using a modern frontend development workflow.
+
+---
+
+# Features
+
+## Dashboard Statistics
+
+- Total Assets Counter
+- Active Devices Counter
+- Offline Devices Counter
+
+## Asset Management (CRUD)
+
+- Add new assets
+- Edit existing assets
+- Delete assets
+- Persistent localStorage storage
+
+## Search Functionality
+
+- Search by:
+  - Device Name
+  - Type
+  - Status
+  - Location
+
+## Responsive Enterprise UI
+
+- Bootstrap responsive layout
+- Enterprise dashboard design
+- Mobile-friendly interface
+
+---
+
+# Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| React | Frontend framework |
+| Vite | Fast development/build tool |
+| JavaScript | Application logic |
+| Bootstrap 5 | Responsive UI |
+| localStorage | Persistent browser storage |
+| Git/GitHub | Version control |
+| Vercel | Cloud deployment |
+
+---
+
+# Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/t-debnath/enterprise-it-asset-manager.git
+cd enterprise-it-asset-manager
+npm install
+npm run dev
+npm run build
+npm run preview
